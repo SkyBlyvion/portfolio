@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,6 +12,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
+
 <body>
   <main>
     <aside class="sidebar" data-sidebar>
@@ -139,7 +141,7 @@
         <ul class="navbar-list">
 
           <li class="navbar-item">
-            <button class="navbar-link active" data-nav-link>A propos</button>
+            <button class="navbar-link  active" data-nav-link>A propos</button>
           </li>
 
           <li class="navbar-item">
@@ -178,12 +180,15 @@
 
         <section class="about-text">
           <p>
-            Je suis Nicolas, un développeur full-stack passionné par la création d'applications web performantes et évolutives.
-            Curieux et engagé dans un apprentissage continu, j'élargis constamment mes compétences pour maîtriser les dernières technologies et les meilleures pratiques.
+            Je suis Nicolas, un développeur full-stack passionné par la création d'applications web performantes et
+            évolutives.
+            Curieux et engagé dans un apprentissage continu, j'élargis constamment mes compétences pour maîtriser les
+            dernières technologies et les meilleures pratiques.
           </p>
 
           <p>
-            J'accorde une importance particulière à l'expérience utilisateur, en veillant à ce que chaque interaction soit intuitive et mémorable.
+            J'accorde une importance particulière à l'expérience utilisateur, en veillant à ce que chaque interaction
+            soit intuitive et mémorable.
             J'aime aussi créer des petits projets innovants et ainsi améliorer mes compétences.
           </p>
         </section>
@@ -258,7 +263,7 @@
                 <h4 class="h4 service-item-title">Desktop apps</h4>
 
                 <p class="service-item-text">
-                  Je réalise tout type d'applications pour ordinateurs. 
+                  Je réalise tout type d'applications pour ordinateurs.
                 </p>
               </div>
 
@@ -270,55 +275,78 @@
 
 
         <!-- Projets en vedette -->
-
         <section class="featured-projects">
 
           <h3 class="h3 featured-projects-title">Projets en Vedette</h3>
-        
+
           <ul class="featured-projects-list has-scrollbar">
-        
+
             <li class="featured-projects-item testimonials-item">
               <div class="content-card" data-projects-item>
-        
+
                 <figure class="projects-image-box testimonials-avatar-box">
                   <img src="./assets/images/Logo-Complet-Revimport.jpg" alt="Projet 1" width="60" data-projects-image>
                 </figure>
-        
+
                 <h4 class="h4 projects-item-title testimonials-item-title" data-projects-title>Projet 1 - Stage</h4>
-        
+
                 <div class="testimonials-text" data-projects-text>
                   <p>
-                    Projet de migration d'un ERP "Business Central", actuellement on-premises, vers une nouvelle version en mode SaaS.
+                    Projet de migration d'un ERP "Business Central", actuellement on-premises, vers une nouvelle version
+                    en mode SaaS.
                   </p>
                 </div>
-        
+
               </div>
             </li>
-        
+
             <li class="featured-projects-item testimonials-item">
               <div class="content-card" data-projects-item>
-        
+
                 <figure class="projects-image-box testimonials-avatar-box">
                   <img src="./assets/images/" alt="Projet 2" width="60" data-projects-image>
                 </figure>
-        
+
                 <h4 class="h4 projects-item-title testimonials-item-title" data-projects-title>Projet 2</h4>
-        
+
                 <div class="testimonials-text" data-projects-text>
                   <p>
                     A venir.
                   </p>
                 </div>
-        
+
               </div>
             </li>
-        
+
             <!-- Add more projects as needed -->
-        
+
           </ul>
-        
+
         </section>
-        
+
+
+
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+          </section>
+
+        </div>
+
+
         <!--
           - clients
         -->
@@ -370,6 +398,8 @@
                 <img src="./assets/images/icons8-flutter.svg" alt="client logo">
               </a>
             </li>
+
+
 
           </ul>
 
